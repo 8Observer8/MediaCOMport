@@ -18,7 +18,8 @@ Receiver::Receiver( const QString &portName,
 void Receiver::run( ) throw( PortError )
 {
     if ( !m_serialPort.open( QIODevice::ReadOnly ) ) {
-        throw PortError( m_serialPort.errorString( ).toStdString( ) );
+        throw PortError( "Error: unable to open the port \"" +
+                         m_serialPort.portName().toStdString() + "\"" );
     }
 
     m_serialPort.setBaudRate( m_baudRate );

@@ -25,7 +25,6 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->toTrayButton->setIcon( QIcon( ":/IconToTray" ) );
 
     m_receiver = new Receiver;
-    runReceiver();
 
     createActions();
     createTrayIcon();
