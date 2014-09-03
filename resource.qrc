@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="IconBack">resource/back.png</file>
+        <file alias="IconVolumeUp">resource/music_add_32.png</file>
+        <file alias="IconVolumeDown">resource/music_remove_32.png</file>
+        <file alias="IconNext">resource/next.png</file>
+        <file alias="IconPlayPause">resource/play_stop.png</file>
+        <file>resource/quit.png</file>
+        <file alias="IconSound">resource/sound.png</file>
+        <file alias="IconStop">resource/stop.png</file>
+        <file alias="IconToTray">resource/to_tray.png</file>
+        <file alias="IconTray">resource/tray.png</file>
+        <file alias="IconWindow">resource/window.png</file>
+    </qresource>
+</RCC>
